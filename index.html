@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 2</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+  <body>
+    <header>
+            <h1> Team 24 Meeting Minutes</h1>
+            <img src="Rigby cool guy.jpg" alt="Meeting Image" width="200" height="200">
+    </header>
+
+    <main>
+            <div>
+            <nav>
+            <a href="#meeting-info">Meeting Info</a> |
+            <a href="#Decisions-Made">Decisions Made</a> |
+            <a href="#Future-Agenda">Future Agenda</a> |
+            <a href="#form">Contact Team Leader</a>
+            </nav>
+        </div>
+
+        <hr>
+
+        <section id="meeting-info">
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Meeting Purpose:</td>
+                    <td>  good question</td>
+                </tr>
+                <tr>
+                    <td>Meeting Date &<br> time:</td>
+                    <td>04/08/2026 3:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Meeting Location:</td>
+                    <td>my crib </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="Decisions-Made">
+            <h2>Decisions Made</h2>
+            <ul>
+                <li>Decision 1:...</li>
+                <li>Decision 2:...</li>
+            </ul>
+        </section>
+
+        <section id="Future-Agenda">   
+            <h3>Next on the Agenda!</h3>
+            <ol>
+                <li>Step 1:...</li>
+                <li>Step 2:...</li>
+            </ol>
+        </section>
+
+        <section id="form">
+            <h3>Have any questions? Contact Team Leader</h3>
+            <form action="/action_page.php">
+                <fieldset>  
+                    <Legend>Contact Information</Legend>
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname" value="John"><br>
+
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname" value="Doe"><br>
+
+                            <label for="email">Enter your email:</label><br>
+                            <input type="email" id="email" name="email" value="rigby@ucsd.edu"><br><br>
+
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday"><br><br>
+
+                            <textarea name="message" rows="10" cols="30">Enter your message here...
+                            </textarea>><br><br>
+
+                            <label for="question">Do you like cats?</label><br>
+                            <input list="question">
+                            <datalist id="question">
+                                <option value="yes">
+                                <option value="YEAH">
+                            </datalist> <br><br>
+
+                            <label for="cats">Choose a car:</label>
+                            <select id="cats" name="cats" size="2" multiple>
+                                <option value="cat1">rigby</option>
+                                <option value="cat2">pickles</option>
+                            </select> <br><br>
+
+                            <label>Do you fw team 24?</label><br>
+                            <input type="radio" id="html" name="yes" value="yes">
+                            <label for="html">HTML</label><br>
+                            <input type="radio" id="css" name="no" value="no">
+                            <label for="css">CSS</label><br><br>
+
+                            <label for="commute">Can you commute for meetings?</label><br>
+                            <input type="checkbox" id="yes" name="yes" value="yes">
+                            <label for="yes">I can</label><br>
+                            <input type="checkbox" id="no" name="no" value="no">
+                            <label for="no"> I cannot</label><br><br>
+
+                            <button type="submit" value="Submit">Submit</button>
+
+                </fieldset>
+            </form>
+            <br>
+        </section>
+
+        <details>
+            <summary> Today's Summary</summary>
+            <p> <span><b><em>so the summary is</em></b> <strong><i>blah blah hello 1234 i love cats dingus</i></strong></span></p>
+        </details>
+
+        <p> listen to this cool frank ocean chanel remix </p>
+        <audio controls>
+            <source src="chanel-remix.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p> also check out this cool video </p>
+        <video width="400" height="300" controls>
+            <source src="kitty.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </main>
+
+    <footer> Thanks for reading!</footer>
+  </body>
+</html>
