@@ -31,6 +31,10 @@ footer{
 #form{
    background-color: color-mix(in srgb, hotpink 70%, white 30%);
 } 
+#meeting-info{
+    background-color: var(--main-bg-colorm, hotpink);
+
+}
 
 /* units */
 #meeting-info{
@@ -52,13 +56,13 @@ header{
 }
  
 main{
-    margin: 1px 1px 1px 1px;
+    margin: 1cm 1cm 1cm 1cm;
     border: 6px solid black;
 }
 
 footer{
     display: flex;
-    font-size: 1em;
+    font-size: 10mm;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 1px;
@@ -76,6 +80,8 @@ img{
     height: 80px;
     max-width: fit-content;
     max-height: fit-content;
+    min-width: none;
+    min-height: auto;
     border: 2px solid black;
     margin: auto;
 }
@@ -178,4 +184,11 @@ div:has(img) {
   & div {
     color: black;
   }
+}
+
+div > p {
+  color: blue;
+}
+h1, footer { 
+    font-style: italic;
 }
