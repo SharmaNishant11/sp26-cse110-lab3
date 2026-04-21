@@ -1,0 +1,67 @@
+/* CSS file*/
+
+/* General CSS Topics */
+
+:root{
+    --main-bg-color: hotpink;
+}
+
+/*colors*/
+header{
+    background-color: hotpink;
+}
+nav{
+    background-color: #ff69b4;
+}
+#meeting-info{
+    background-color: hsla(330, 100%, 70%, 0.5);
+}
+#Decisions-Made{
+    background-color: rgb(255, 105, 180, 0.5);
+}
+#Future-Agenda{
+    background-color: color(colorspace(--pink) / 0.5);
+}
+#form{
+  background-color: var(--main-bg-color, #ff69b4);
+}
+footer{
+    background-color: hotpink;
+}
+/* units */
+#meeting-info{
+    font-size: 100%;
+}
+#form{
+    font-size: 1.5 rem;
+}
+
+/* box model */
+header{
+    display: flex;
+    font-size: 1em;
+    padding: 1px;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 10px;
+}
+ 
+main{
+    margin: 1px 1px 1px 1px;
+}
+
+footer{
+    display: flex;
+    font-size: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;;
+}
+
