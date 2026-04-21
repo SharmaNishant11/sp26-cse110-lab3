@@ -13,21 +13,20 @@ header{
 nav{
     background-color: #ff69b4;
 }
-#meeting-info{
-    background-color: hsla(330, 100%, 70%, 0.5);
+main{
+    background-color: rgb(254, 163, 218);
 }
-#Decisions-Made{
-    background-color: rgb(255, 105, 180, 0.5);
+footer{
+    background-color: hsla(295, 85%, 48%, 0.5);
 }
+/* 
 #Future-Agenda{
     background-color: color(colorspace(--pink) / 0.5);
 }
 #form{
   background-color: var(--main-bg-color, #ff69b4);
-}
-footer{
-    background-color: hotpink;
-}
+} */
+
 /* units */
 #meeting-info{
     font-size: 100%;
@@ -35,6 +34,7 @@ footer{
 #form{
     font-size: 1.5 rem;
 }
+
 
 /* box model */
 header{
