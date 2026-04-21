@@ -1,5 +1,8 @@
 /* CSS file*/
 
+*{
+    box-sizing: border-box;
+}
 
 /* General CSS Topics */
 
@@ -106,7 +109,7 @@ a:active {
 }
 
 /* Text */
-meeting-info{
+#meeting-info{
     text-align: justify;
     text-decoration: wavy;
     color: black;
@@ -128,7 +131,7 @@ meeting-info{
     flex-wrap: wrap;
     align-items: center;
 }
-.media-content div{
+.media-content > div{
     margin: 10px;
     padding: 20px;
 }
@@ -147,4 +150,33 @@ meeting-info{
     padding: 20px;
     font-size: 30px;
     text-align: center;
+}
+
+/* Selectors */
+input[type="text"] {
+  border: 1px solid black;
+}
+
+h1 ~ p {
+  color: gray;
+}
+
+h1 + p {
+  font-weight: bold;
+}
+div.media-content {
+  background-color: lightgray;
+}
+a[target="_blank"] {
+  color: red;
+}
+div:has(img) {
+  border: 2px solid blue;
+}
+.media-content {
+  display: flex;
+
+  & div {
+    color: black;
+  }
 }
