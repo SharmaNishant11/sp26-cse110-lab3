@@ -106,7 +106,7 @@ a:active {
 }
 
 /* Text */
-#meeting-info{
+meeting-info{
     text-align: justify;
     text-decoration: wavy;
     color: black;
@@ -117,4 +117,34 @@ a:active {
   .column {
     flex: 50%;
   }
+}
+
+/* Layout */
+
+/* flexbox */
+.media-content {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.media-content div{
+    margin: 10px;
+    padding: 20px;
+}
+
+/* grid */
+#form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+    align-items: self-start;
+}
+#form div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
