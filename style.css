@@ -23,21 +23,20 @@ main{
 footer{
     background-color: hsla(295, 85%, 48%, 0.5);
 }
-/* 
+
 #Future-Agenda{
-    background-color: color(colorspace(--pink) / 0.5);
+  background-color: color(display-p3 1 0.4 0.7);
 }
+
 #form{
-  background-color: var(--main-bg-color, #ff69b4);
-} */
+   background-color: color-mix(in srgb, hotpink 70%, white 30%);
+} 
 
 /* units */
 #meeting-info{
     font-size: 100%;
 }
-#form{
-    font-size: 1.5 rem;
-}
+
 
 
 /* box model */
@@ -49,7 +48,7 @@ header{
     border-style: solid;
     border-color: black;
     border-radius: 10%;
-    border-width: 10px;
+    border-width: 10vh;
 }
  
 main{
